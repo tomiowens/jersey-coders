@@ -1,0 +1,6 @@
+---
+- hoasts: pi02
+  remote_user: route
+  tasks:
+  - name:reboot pi02
+    command: shutdown -h now
