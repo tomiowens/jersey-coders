@@ -1,5 +1,5 @@
 ---
-- hoasts: pi02
+- hosts: pi02
   remote_user: route
   tasks:
   - name:reboot pi02
