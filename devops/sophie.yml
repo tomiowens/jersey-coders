@@ -1,1 +1,6 @@
-
+---
+- hosts: Pi01
+  remote_user: root
+  tasks:
+  - name: reboot Pi01
+    command: shutdown -h now
